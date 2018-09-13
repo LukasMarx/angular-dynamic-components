@@ -1,0 +1,22 @@
+:host {
+  border: 2px #382ecc solid;
+  font-size: 64px;
+  color: #382ecc;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.text-wrapper {
+  display: flex;
+  flex: 1;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

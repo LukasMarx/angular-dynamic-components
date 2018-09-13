@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  font-family: 'Roboto';
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 0;
+  margin: 8px;
+  overflow: hidden;
+  padding: 16px;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+
+  background-color: #382ecc;
+  color: #ecf0f1;
+}
