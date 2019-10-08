@@ -21,7 +21,7 @@ export class DialogService {
     return dialogRef;
   }
 
-  private appendDialogComponentToBody(config: DialogConfig) {
+  private appendDialogComponentToBody(config: DialogConfig): DialogRef {
     const map = new WeakMap();
     map.set(DialogConfig, config);
 
